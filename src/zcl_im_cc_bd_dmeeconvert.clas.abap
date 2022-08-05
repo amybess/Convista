@@ -40,7 +40,7 @@ CLASS ZCL_IM_CC_BD_DMEECONVERT IMPLEMENTATION.
       TRY.
           LOOP AT ch_it_init ASSIGNING FIELD-SYMBOL(<fs_init>).
             ASSIGN COMPONENT 'CONTENT' OF STRUCTURE  <fs_init> TO <fs_content>.
-            FIND ALL OCCURRENCES OF PCRE '([' && wa_dmee_head-escape_symb && '])(?:(?=(\\?))\2.)*?\1' IN <fs_content> results data(result_tab).
+            FIND ALL OCCURRENCES OF PCRE '([' && wa_dmee_head-escape_symb && '])(?:(?=(\\?))\2.)*?\1' IN <fs_content> RESULTS DATA(result_tab).
 *            FIND ALL OCCURRENCES OF REGEX wa_dmee_head-escape_symb &&
 *                                          '[^' && wa_dmee_head-escape_symb && ']*' &&
 *                                          wa_dmee_head-escape_symb &&
@@ -56,33 +56,50 @@ CLASS ZCL_IM_CC_BD_DMEECONVERT IMPLEMENTATION.
 
       ENDTRY.
     ENDIF.
-
   ENDMETHOD.
 
 
   METHOD if_ex_badi_dmeeconvert~process_output_dme.
 
     FIELD-SYMBOLS:
-      <fs_zfxdeal_line> TYPE zccftrfxt.
+      <fs_product_type> TYPE any,
+      <fs_transaction_type> TYPE any.
 
 
     DATA: lv_gsart   TYPE gsart,
           lv_sfhaart TYPE tb_sfhaart,
-          lt_zfxdeal TYPE TABLE OF zccftrfxt.
+          lv_tabname TYPE tabname16,
+          ref_tab    TYPE REF TO data,
+          ref_wat    TYPE REF TO data.
 
-    LOOP AT ch_result_tab1 ASSIGNING <fs_zfxdeal_line>.
 
-      SELECT SINGLE gsart FROM zcc_t_dmee_gsart
-        INTO lv_gsart
-       WHERE ref_name = <fs_zfxdeal_line>-product_type.
+    READ TABLE im_it_selection_fields ASSIGNING FIELD-SYMBOL(<fs_sel_fields>) WITH KEY selname = 'P_TR_TYP'.
 
-      SELECT SINGLE sfhaart FROM zcc_t_dmee_sfhaa
-        INTO lv_sfhaart
-       WHERE ref_name = <fs_zfxdeal_line>-transaction_type.
+    IF <fs_sel_fields> IS ASSIGNED.
 
-      <fs_zfxdeal_line>-product_type = lv_gsart.
-      <fs_zfxdeal_line>-transaction_type = lv_sfhaart.
-    ENDLOOP.
+
+      LOOP AT ch_result_tab1 ASSIGNING FIELD-SYMBOL(<fs_wat>).
+
+        ASSIGN COMPONENT 'PRODUCT_TYPE' OF STRUCTURE <fs_wat> TO <fs_product_type>.
+        IF <fs_product_type> IS ASSIGNED.
+          SELECT SINGLE gsart FROM zcc_t_dmee_gsart
+            INTO lv_gsart
+           WHERE ref_name = <fs_product_type>.
+
+          <fs_product_type> = lv_gsart.
+        ENDIF.
+
+        ASSIGN COMPONENT 'TRANSACTION_TYPE' OF STRUCTURE <fs_wat> TO <fs_transaction_type>.
+        IF <fs_transaction_type> IS ASSIGNED.
+          SELECT SINGLE sfhaart FROM zcc_t_dmee_sfhaa
+            INTO lv_sfhaart
+           WHERE ref_name = <fs_transaction_type>.
+
+          <fs_transaction_type> = lv_sfhaart.
+        ENDIF.
+      ENDLOOP.
+
+    ENDIF.
 
   ENDMETHOD.
 ENDCLASS.

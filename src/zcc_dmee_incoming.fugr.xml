@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>TRM Interface with providers</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCC_DMEE_INCOMINGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCC_DMEE_INCOMING</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCC_DMEE_CONV_EXT_COMPANY</FUNCNAME>
+     <SHORT_TEXT>DMEE TRM Interface with providers</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_INTERFACE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DMEE_EXIT_INTERFACE_INCOM_ABA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_INTERFACE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DMEE: Interface for EXIT Modules for Incoming Files</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Result value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCC_DMEE_CONV_EXT_CURR_CODE</FUNCNAME>
+     <SHORT_TEXT>DMEE TRM Interface with providers</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_INTERFACE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DMEE_EXIT_INTERFACE_INCOM_ABA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_INTERFACE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DMEE: Interface for EXIT Modules for Incoming Files</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Result value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZCC_DMEE_COUNTERPARTY_BP</FUNCNAME>
+     <SHORT_TEXT>DMEE TRM Interface with providers</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_INTERFACE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DMEE_EXIT_INTERFACE_INCOM_ABA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_VALUE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_INTERFACE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DMEE: Interface for EXIT Modules for Incoming Files</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_VALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Result value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

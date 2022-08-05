@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCCDMEE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Mensagens DMEE IN - Interface provedores/TRM</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCCDMEE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Não foi localizado De/Para de Código de Empresa.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCCDMEE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Não foi localizado De/Para de Tipo de Produto.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCCDMEE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Não foi localizado De/Para de Tipo de Transação.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCCDMEE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Não foi localizado De/Para de Parceiro de Negócios.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

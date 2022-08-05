@@ -12,6 +12,3249 @@
    </PROGDIR>
    <I18N_TPOOL>
     <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>引入 DME 文件</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: 格式细节</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>转换 DME 文件</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>日志</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>过帐</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME 引擎: 引入 DME 文件的转化格式</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>代码页（编码的字符集）</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>文件名　</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>转换文件名称</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>记录分隔符</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>报表名称</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>格式树</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>树类型</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>文件数据日志</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>变式的名称</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>写到本地文件</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>从本地文件读取</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>写到应用服务器</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>从应用服务器中读取</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>生成错误日志</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>传输文件到报表</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>2</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>ไฟล์ DME ขาเข้า</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: รายละเอียดรูปแบบ</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>ไฟล์ DME ที่แปลง</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>ล็อก</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>การผ่านรายการ</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: แปลงรูปแบบของไฟล์ DME ขาเข้า</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>โค้ดเพจ (ชุดอักขระที่เข้ารหัส</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>ชื่อไฟล์</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>ชื่อของไฟล์ที่แปลงค่า</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>ตัวลดระยะเวลาเรคคอร์ด</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>ชื่อรายงาน</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>ทรีรูปแบบ</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>ประเภททรี</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>ล็อกข้อมูลของไฟล์</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>ชื่อของชุดตัวเลือก</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>เขียนลงในไฟล์ในเครื่อง</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>อ่านจากไฟล์ในเครื่อง</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>เขียนในแอพพลิเคชันเซิร์ฟเวอร์</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>อ่านจากแอพพลิเคชันเซิร์ฟเวอร์</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>สร้างล็อกข้อผิดพลาด</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>โอนไฟล์ไปยังรายงาน</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>수신 DME 파일</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: 세부사항 포맷</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>변환된 DME 파일</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>로그</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>전기</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME 엔진: 수신 DME 파일의 포맷 변환</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>코드페이지(코드화된 문자 세트)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>파일 이름</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>변환된 파일 이름</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>레코드 구분자</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>리포트 이름</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>포맷 트리</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>트리 유형</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>파일 데이터 로그</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>변형 이름</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>로컬 파일에 쓰기</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>로컬 파일에서 읽기</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>어플리케이션 서버에 쓰기</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>어플리케이션 서버에서 읽기</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>오류 로그 생성</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>리포트로 파일 전송</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fişier DME de intrare</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: detalii format</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Fişier DME convertit</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Jurnale</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Înregistrare</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: conversie format fişier DME de intrare</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Pagină cod (set caract.codif.)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nume fişier</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Nume pt. fişier convertit</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Delim. înregistrare</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nume raport</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Format arbore</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tip arbore</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Jurnal pt. date de fişier</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nume variantă</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Scriere în fişier local</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Citire din fişier local</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Scriere la server aplicaţie</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Citire din server aplicaţie</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Generare jurnal erori</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Transfer fişier la raport</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Vhodna DTA datoteka</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Podatki oblike</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Pretvorjena DTA datoteka</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Zapisniki</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Ažuriranje</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Pretvorba oblike vhodnih DTA datotek</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kodna stran (kodir.niz.znak.)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Ime datoteke</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Naziv pretvorjene datoteke</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Znak razm.pod.zapisa</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Naziv poročila</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Drevo oblike</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tip drevesa</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Zapisnik podatkov datoteke</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Naziv variante</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Pisanje v lokalno datoteko</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Branje lokalne datoteke</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Pisanje na aplikacij. strežnik</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Branje z aplikacij. strežnika</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Kreiranje zapisnika napak</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Prenos datoteke v poročilo</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ulazna DME datoteka</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: detalji formata</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertirana datoteka DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoli</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Knjiženje</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: konvertiraj format ulazne DME datoteke</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kodna str. (skup kod.znakova)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Naziv datoteke</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Naziv konvertirane datoteke</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Karakter. ograničenja sloga</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Naz. programa</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Stablo formata</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tip stabla</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Protokol podataka datoteke</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Naziv varijante</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Piši u lokalnu datoteku</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Čitaj iz lokalne datoteke</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Piši u poslužitelj aplikacije</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Čitanje s aplikac.poslužit.</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Generiraj protokol greške</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Prenesi datoteku u izvješće</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>7</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fail DME Masuk</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Butiran Format</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Fail DME Ditukar</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Log</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Pengeposan</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Enjin DME: Tukar Format Fail DME Masuk</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Hlaman Kod (Set Aksara Berkod)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nama fail</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Nama Fail Ditukar</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Pembatas Rekod</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nama Laporan</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Pepohon format</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Jenis Pepohon</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Log Data Fail</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nama Varian</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Tulis ke Fail Tempatan</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Baca dari Fail Tempatan</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Tulis ke Pelayan Aplikasi</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Baca dari Pelayan Aplikasi</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Janakan Log Ralat</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Pindah Fail ke Laporan</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>8</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Вхідний файл DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: подробиці формата</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Перетворений файл DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Журнали</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Проводка</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: перетворити формат вхідного файлу DME</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Кодова сторін.(набір код.симв.</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Ім&apos;я файлу</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Ім&apos;я перетвореного файлу</ENTRY>
+       <LENGTH>32</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Розділювач запису</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Ім&apos;я звіту</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Дерево формату</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Тип дерева</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Журнал даних файлів</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Назва варіанта</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Записати до локального файлу</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Зчитати з локального файлу</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Записати до сервера застосунку</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Зчитати з сервера застосунку</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Згенерувати журнал помилок</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Перенести файл до звіту</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>9</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Sissetulev AKV-fail</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: vormingu üksikasjad</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Teisendatud AKV-fail</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Logid</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Uuendamine</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: sissetuleva AKV-faili vormingu teisendamine</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Koodileht (kodeerit.märgistik)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Failinimi</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Teisendatud faili nimi</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Kirjeeraldaja</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Aruande nimi</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Vormingupuu</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Puutüüp</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Failiandmete logi</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Variandi nimi</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Kirjuta kohalikku faili</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Loe kohalikust failist</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Kirjuta rakendusserverisse</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Loe rakendusserverist</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Loo tõrkelogi</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Kanna fail aruandesse üle</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>A</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>ملف DME وارد</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: تفاصيل التنسيق</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>ملف DME محول</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>السجلات</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>ترحيل</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>محرك DME: تحويل تنسيق ملف DME الوارد</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>صفحة الرموز (مجموعة حروف مشفرة</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>اسم الملف</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>اسم الملف المحول</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>محدد السجل</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>اسم التقرير</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>شجرة التنسيق</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>نوع الشجرة</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>سجل بيانات الملف</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>اسم المتغير</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>كتابة إلى ملف محلي</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>قراءة من ملف محلي</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>كتابة إلى خادم التطبيق</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>قراءة من خادم التطبيق</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>إنشاء سجل الأخطاء</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>نقل الملف إلى التقرير</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>קובץ DME נכנס</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: פרטי פורמט</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>קובץ DME שהומר</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>יומנים</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>רישום</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>מנוע DME: המרת פורמט קובץ DME נכנס</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>עמוד קוד (סט תווים מקודדים)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>שם קובץ</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>שם קובץ שהומר</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>תוחם רשומה</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>שם דוח</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>עץ פורמטים</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>סוג עץ</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>יומן נתוני קובץ</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>שם ואריינט</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>כתיבה לקובץ מקומי</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>קריאה מקובץ מקומי</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>כתיבה לשרת יישום</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>קריאה משרת יישום</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>יצירת יומן שגיאה</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>העברת קובץ לדיווח</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Vstupní soubor VND</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Údaje formátu</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvert.soubor VND</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoly</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Aktualizace</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Konverze formátů vstupních souborů VND</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kód.stránka (kód.znaková sada</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Název souboru</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Název konvertovaného souboru</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Odděl.dat.záznamů</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Název reportu</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Strom formátů</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Typ stromu</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Protokol dat souboru</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Název varianty</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Zápis do lokálního souboru</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Čtení z lokálního souboru</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Zápis na aplikační server</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Čtení z aplikačního serveru</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Vytvoření chyb.protokolu</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Soubor předat reportu</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Eingehende DTA-Datei</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Formatangaben</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertierte DTA-Datei</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokolle</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Verbuchung</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Formatkonvertierung eingehender DTA-Dateien</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Code Page (Coded Character Set</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Dateiname</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Name der konvertierten Datei</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Datensatzbegrenzer</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Reportname</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formatbaum</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Baumtyp</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Dateidaten-Protokoll</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Name der Variante</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>In lokale Datei schreiben</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Von lokaler Datei lesen</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Auf Appl.-Server schreiben</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Vom Appl.-Server lesen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Fehlerprotokoll erstellen</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Datei an Report übergeben</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fichier SM entrant</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE : données format</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Fichier SM converti</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protocoles</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Mise à jour</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DMEE : conversion de format de fichiers SM entrants</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Code Page (Coded Character Set</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nom de fichier</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Nom du fichier converti</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Délimiteur d&apos;enregistr. donn.</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nom du programme</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Arbre de format</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Type arbre</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Journal des données du fichier</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nom de la variante</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Ecrire dans fichier local</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Lire à partir du fichier local</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Ecrire sur serveur application</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Lire à p. serveur application</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Créer journal des erreurs</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Transmettre fichier à progr.</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Εισερχόμενο Αρχείο DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Λεπτομέρ.Μορφοποίησης</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Τροποποιημένο Αρχείο DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Ημερολόγια</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Καταχώριση</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Μετατροπή Μορφοποίησης Εισερχόμενου Αρχείου DME</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Κωδικοσελ.(Κωδ.Σύν.Χαρακτήρων</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Ονομα αρχείου</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Ονομα Μετατρ.Αρχείου</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Περιορισμός Εγγραφών</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Ονομα Αναφοράς</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Δέντρο μορφοποίησης</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Τύπ.Δέντ.</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Ημερολόγιο Δεδομένων Αρχείου</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Ονομα Μεταβλητής</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Εγγραφή σε Τοπικό Αρχείο</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Ανάγνωση από Τοπικό Αρχείο</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Εγγραφή σε Εξυπηρετ.Εφαρμογής</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Ανάγνωση από Εξυπηρ.Εφαρμογής</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Ενεργοπ.Ημερολογίου Λαθών</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Μεταφορά Αρχείου σε Αναφορά</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Beérkező AHCS-fájl</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: formátumadatok</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertált AHCS-fájl</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Naplók</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>AB-aktualizálás</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engiine: beérkező AHCS-fájlok formátumkonvertálása</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kódlap (kódolt karakterkészl.)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Fájlnév</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Konvertált fájl neve</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Adatrekord-korlátozó</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Riportnév</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formátumstruktúra</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Struktúratípus</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Fájladatnapló</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Változat neve</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Írás lokális fájlba</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Olvasás lokális fájlból</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Írás applikációs szerverre</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Olvasás applikációs szerverről</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Hibanapló létrehozása</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Fájl átadása riportnak</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>File DME in entrata</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: dati formato</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>File DME convertito</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Registri</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Registrazione</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: conversione formato dei file DME in entrata</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Code page (Coded Character Set</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nome file</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Nome del file convertito</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Delim.record dati</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nome del report</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Albero formato</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tp albero</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Registro dati file</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nome della variante</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Scrivere nel file locale</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Leggere dal file locale</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Scrivere sull&apos;appl. server</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Leggere dall&apos;appl. server</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Creare protocollo errori</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Trasmettere file a report</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>受信 DME ファイル</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: 書式詳細</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>変換済 DME ファイル</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>ログ</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>転記</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME エンジン: 受信 DME ファイル書式の変換</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>コードページ(符号化文字セット)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>ファイル名</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>変換済ファイル名</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>レコードデリミタ</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>レポート名</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>書式ツリー</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>ツリータイプ</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>ファイルデータログ</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>バリアント名　　　</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>ローカルファイルに書込</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>ローカルファイルから読込</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>アプリケーションサーバーに書込</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Application サーバからの読込</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>エラーログ生成</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>レポートにファイルを転送</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>K</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Indgående EDM-fil</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Formatangivelser</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konverteret EDM-fil</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoller</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Opdatering</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DMEE: Formatkonvertering af indgående EDM-filer</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Code page (kodet tegnsæt)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Filnavn</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Navn på konverteret fil</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Datarecordafgrænsningstegn</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Rapportnavn</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formattræ</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Trætype</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Fildataprotokol</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Variantnavn</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Skriv til lokal fil</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Læs fra lokal fil</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Skriv til appl.server</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Læs fra appl.server</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Opret fejlprotokol</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Fil overført til rapport</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Wpływający plik KND</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Dane dot. formatu</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konwertowany plik KND</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Logi</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Aktualizacja</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Konwersja formatu wpływających plików KND</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Strona kodowa (strona kodowa</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nazwa pliku</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Nazwa skonwertowanego pliku</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Ogranicznik rekordu danych</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nazwa raportu</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Drzewo formatu</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Typ drzewa</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Protokół danych pliku</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nazwa wariantu</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Zapis w pliku lokalnym</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Odczyt z pliku lokalnego</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Zapis na serwerze aplikacji</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Odczyt z serwera aplikacji</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Tworzenie protokołu błędu</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Transfer pliku do raportu</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>M</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>接收 DME 檔案</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE：格式明細</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>已轉換 DME 檔案</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>日誌</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>過帳</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine：轉換接收 DME 檔案的格式</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>代碼頁〈編碼的字元集〉</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>檔案名稱</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>已轉換檔案名稱</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>記錄界定符</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>報表名稱</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>格式樹狀結構</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>樹狀結構類型</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>檔案資料日誌</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>變式名稱</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>寫入至本端檔案</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>自本端檔案讀取</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>寫入應用程式伺服器</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>自應用程式伺服器讀取</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>產生錯誤日誌</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>將檔案傳輸至報表</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Inkomend GDU-bestand</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: opmaakgegevens</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Geconverteerd GDU-bestand</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Verslagen</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Update</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: opmaakconversie van inkomende GDU-bestanden</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Codepage (gecodeerd tekenset)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Bestandsnaam</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Naam geconverteerd bestand</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Recordbegrenzingsteken</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Rapportnaam</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formaatstructuur</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Structuurtype</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Bestandsgegevensverslag</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Naam van variant</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Schrijven naar lokaal bestand</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Lezen uit lokaal bestand</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Schrijven naar appl.server</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Lezen van applicatieserver</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Foutenverslag creëren</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Bestand aan rapport doorgeven</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>O</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Inngående DOF-fil</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Formatdefinisjon</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertert DOF-fil</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoller</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Oppdatering</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DMEE: Formatkonvertering av inngående DOF-filer</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kodesett (kodet tegnsett)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Filnavn</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Navn på konvertert fil</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Datapostskilletegn</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Rapportnavn</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formattre</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tretype</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Fildata-protokoll</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Variantnavn</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Skriv i lokal fil</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Les fra lokal fil</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Skriv til applikasjonsserver</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Les fra applikasjonsserver</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Opprett feilprotokoll</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Overfør fil til rapport</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
      <LANGUAGE>P</LANGUAGE>
      <TEXTPOOL>
       <item>
@@ -72,6 +3315,1980 @@
        <KEY>X_LOG1</KEY>
        <ENTRY>Generate Error Log</ENTRY>
        <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Vstupný súbor VND</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Zadania formátu</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Skonvertovaný súbor VND</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoly</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Aktualizácia</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Konverzia formátu vstupných súborov VND</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kód.stránka (kód.súbor znakov)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Názov súboru</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Názov konvertovaného súboru</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Oddel.dát.záznamov</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Názov reportu</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Strom formátu</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Typ stromu</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Protokol dát súboru</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Názov variantu</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Zápis do lokálneho súboru</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Čítanie z lokálneho súboru</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Zápis na apl.server</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Čítanie z apl.servera</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Vytvorenie protokolu chýb</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Odovzdanie súboru reportu</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Входящий ОНД-файл</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: данные формата</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Преобразованный ОНД-файл</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Журналы</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Обновление</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: преобразование форматов входящих ОНД-файлов</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Код.страница (код. НаборСимв)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Имя файла</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Имя преобразованного файла</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Ограничитель записи данных</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Имя отчета</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Форматное дерево</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Тип дерева</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Журнал данных файла</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Имя варианта</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Запись в локальный файл</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Считывание локального файла</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Запись на сервер приложения</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Считать с сервера приложения</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Создание журнала ошибок</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Передать файл -&gt; отчет</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fichero ISD entrante</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Datos de formato</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Fichero ISD convertido</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Logs</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Actualización</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DMEE: Conversión de formato de ficheros ISD entrantes</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Code Page (Coded Character Set</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nombre de fichero</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Nombre del fichero convertido</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Delimitador registro datos</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nombre de report</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Árbol formato</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tipo árbol</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Log de datos fichero</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nombre de la variante</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Escribir en fichero local</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Leer de fichero local</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Escribir en servidor aplic.</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Leer de servidor aplic.</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Generar log de errores</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Transferir fichero a report</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Gelen VDO dosyası</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Biçim verileri</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Dönüştürülen VDO dosyası</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Günlükler</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Güncelleme</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DMEE: Gelen VDO dosyaları biçimini dönüştürme</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kod sf.(kodlanmış krk.kümesi)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Dosya adı</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Dönüştürülen dosyanın adı</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Veri kaydı sınırlayıcı</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Rapor adı</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Biçim ağacı</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Ağaç tipi</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Dosya verileri günlüğü</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Varyant adı</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Yerel dosyaya yaz</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Yerel dosyadan oku</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Uygulama sunucusuna yaz</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Uygulama sunucusundan oku</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Hata günlüğü yarat</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Dosyayı rapora aktar</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>U</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Saapuva TVV-tiedosto</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: muototiedot</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Muunnettu TVV-tiedosto</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Lokit</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Päivitys</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DMEE-ohjelma: saapuvien TVV-tiedostojen muodon muunto</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Koodisivu (koodattu merkistö)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Tiedostonimi</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Muunnetun tiedoston nimi</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Tietuerajoitin</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Raportin nimi</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Muotopuu</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Puutyyppi</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Tiedostotietojen loki</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Variantin nimi</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Kirjoita paikall. tiedostoon</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Lue paikallisesta tiedostosta</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Kirjoita sovelluspalvelimeen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Lue sovelluspalvelimesta</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Luo virheloki</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Siirrä tiedosto raporttiin</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Inkommande DTR-fil</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Formatuppgifter</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konverterad DTR-fil</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoll</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Uppdatering</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Formatkonvertering av inkommande DTR-filer</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Teckentabell</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Filnamn</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Namn på konverterad fil</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Datapostavgränsare</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Rapportnamn</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formatstruktur</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Trädtyp</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Fildataprotokoll</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Namn på varianten</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Skriv till lokal fil</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Läs från lokal fil</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Skriv på applikationsserver</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Läs från applikationsserver</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Skapa felprotokoll</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Överför fil till rapport</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Входящ файл DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Подробни данни формат</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Преобразуван файл DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Журнали</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Осчетоводяване</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: Преобразуване на формат на входящ файл DME</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Код.стр. (кодир.набор символи)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Име на файл</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Име на преобразуван файл</ENTRY>
+       <LENGTH>32</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Ограничител на записи</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Име на отчет</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Разклонение на форматирането</ENTRY>
+       <LENGTH>36</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Вид дърво</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Журнал данни на файл</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Име на вариант</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Запис в локален файл</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Четене от локален файл</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Запис в сървър на приложение</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Четене от сървър на прилож.</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Генериране журнал грешки</ENTRY>
+       <LENGTH>32</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Пренос на файл в отчет</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>X</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Gaunamas DME failas</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: išsami form. informacija</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertuotas DME failas</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Žurnalai</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Registravimas</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME priemonė: gaunamo DME failo formato konvertavimas</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kodų lentelė (kod.simb.rink.)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Failo vardas</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Konvertuoto failo vardas</ENTRY>
+       <LENGTH>32</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Įrašo skyriklis</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Ataskaitos pavadinimas</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formatų medis</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Medžio tipas</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Failų duomenų žurnalas</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Varianto pavadinimas</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Įrašyti į vietinį failą</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Nuskaityti iš vietinio failo</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Įrašyti į taik. prog. serverį</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Nuskaityti iš taik. prog. srv.</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Generuoti klaidų žurnalą</ENTRY>
+       <LENGTH>32</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Perkelti failą į ataskaitą</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Y</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ienākošais DNA fails</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: formāta detalizēta info</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertētais DNA fails</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Žurnāli</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Grāmatošana</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DNA meklētājprogramma: konvertēt ienākošā DNA faila formātu</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kodu lapa (kodēta rakstz. kopa</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Faila nosaukums</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Konvertētā faila nosaukums</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Ierakstu norobežotājs</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Atskaites nosaukums</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Formātu koks</ENTRY>
+       <LENGTH>20</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Koka tips</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Faila datu žurnāls</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Varianta nosaukums</ENTRY>
+       <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Rakstīt lokālajā failā</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Nolasīt no lokālā faila</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Rakstīt lietojumprogr. serverī</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Nolasīt no lietojumpr. servera</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Ģenerēt kļūdu žurnālu</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Pārsūtīt failu uz atskaiti</ENTRY>
+       <LENGTH>34</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>c</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fitxer ISD entrant</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Dades de format</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Fitxer ISD convertit</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Logs</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Comptabilitzac.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Motor ISD: Conversió de format de fitxers ISD entrants</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Pàg.codi (Coded Character Set</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Nom del fitxer</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Noms dels fitxers a convertir</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Delimitador de registre dades</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Nom report</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Arbre de format</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tipus d&apos;arbre</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Log de dades de fitxer</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Nom de la variant</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Escriure al fitxer local</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Llegir del fitxer local</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Escriure al servidor aplicació</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Llegir del servidor aplicació</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Crear log d&apos;errors</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Transferir fitxer a l&apos;informe</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ulazni RMP fajl</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Detalji formata</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Konvertovan RMP fajl</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Protokoli</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Knjiženje</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RMP Engine: Konvertuj format ulaznog RMP fajla</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Kodna str.(kodir.skup znakova)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Naziv fajla</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Naziv konvertovanog fajla</ENTRY>
+       <LENGTH>33</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Razgraničenje zapisa</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Naziv izveštaja</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Stablo formata</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Tip stabla</ENTRY>
+       <LENGTH>18</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Protokol podataka fajla</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Ime varijante</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Piši u lokalni fajl</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Čitaj iz lokalnog fajla</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Piši u aplikacijski server</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Čitaj iz aplikacijskog servera</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Genriši protokol greške</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Prenesi fajl u izveštaj</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>묩</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>इनकमिंग DME फ़ाइल</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: स्वरूप विवरण</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>रूपांतरित DME फ़ाइल</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>लॉग</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>पोस्टिंग</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME इंजन: इनकमिंग DME फ़ाइल का स्वरूप रूपांतरित करें</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>कोड पृष्ठ (कोड कि.गया वर्ण सेट</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>फ़ाइल नाम</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>रूपांतरित फ़ाइल का नाम</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>रिकॉर्ड परिसीमक</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>रिपोर्ट नाम</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>स्वरूप ट्री</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>ट्री प्रकार</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>फ़ाइल-डेटा लॉग</ENTRY>
+       <LENGTH>22</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>भिन्न रूप का नाम</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>स्‍थानीय फ़ाइल में लिखें</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>स्थानीय फ़ाइल से पढ़ें</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>एप्लिकेशन सर्वर हेतु लिखें</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>एप्लिकेशन सर्वर से पढ़ें</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>त्रुटि लॉग जनेरट करें</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>रिपोर्ट हेतु फ़ा.स्थानां.करें</ENTRY>
+       <LENGTH>37</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>뱋</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Кіріс ДТА файлы</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: пішім мәліметтері</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Түрлендірілген ДТА файлы</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Журналдар</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Өткізбе</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DME Engine: кіріс ДТА файлының пішімін түрлендіру</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Кодтық бет (кодт.таңбал.жиыны)</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Файл аты</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Түрлендірілген файл аты</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Жазба шектегіші</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Есеп аты</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Пішім тармақты құрылымы</ENTRY>
+       <LENGTH>31</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Тармақты құрылым түрі</ENTRY>
+       <LENGTH>29</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>Файл дерегінің журналы</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Нұсқа атауы</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Жергілікті файлға жазу</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Жергілікті файлдан оқу</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Қолданба серверіне жазу</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Қолданба серверінен оқу</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Қателер журналын жасау</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Файлды есепке тасымалдау</ENTRY>
+       <LENGTH>32</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>쁩</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Tệp DME thay thế</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: Chi tiết Định dạng</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Chuyển đổi tệp DME</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Nhật ký</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Ghi sổ</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Công cụ DME: chuyển đổi định dạng của tệp DME thay thế</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>Trang mã (Tập mã ký tự</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>Tên tệp</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEOUT</KEY>
+       <ENTRY>Tên Tệp được chuyển đổi</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>Giới hạn bản ghi</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_REPORT</KEY>
+       <ENTRY>Tên báo cáo</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>Cây định dạng</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>Kiểu cây</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>N.ký dữ liệu tệp</ENTRY>
+       <LENGTH>28</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_VARI</KEY>
+       <ENTRY>Tên của biến thể</ENTRY>
+       <LENGTH>27</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_DOPS</KEY>
+       <ENTRY>Viết Tệp cục bộ</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB1_UPPS</KEY>
+       <ENTRY>Đọc từ Tệp cục bộ</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_DOAS</KEY>
+       <ENTRY>Viết tới máy chủ ư.dụng</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>RB2_UPAS</KEY>
+       <ENTRY>Đọc từ Máy chủ ứng dụng</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_LOG1</KEY>
+       <ENTRY>Tạo ra nhật ký lỗi</ENTRY>
+       <LENGTH>30</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>X_SUBMIT</KEY>
+       <ENTRY>Chuyển tệp tới báo cáo</ENTRY>
+       <LENGTH>35</LENGTH>
+       <SPLIT>D</SPLIT>
       </item>
      </TEXTPOOL>
     </item>

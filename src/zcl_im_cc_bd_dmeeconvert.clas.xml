@@ -4,7 +4,7 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_IM_CC_BD_DMEECONVERT</CLSNAME>
-    <LANGU>P</LANGU>
+    <LANGU>E</LANGU>
     <DESCRIPT>Classe de implementação para implementação add in ZCC_BD_DME</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>

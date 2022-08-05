@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCC_DME</ARBGB>
+    <MASTERLANG>P</MASTERLANG>
+    <STEXT>Mensagens ZCC DMEE</STEXT>
+   </T100A>
+   <I18N_LANGS>
+    <LANGU>P</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>ZCC_DME</ARBGB>
+     <STEXT>Mensagens ZCC DMEE</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Não há taxa de conversão para o período &quot;&amp;1&quot; - &amp;2 / &amp;3 / &amp;4!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Informar um dia úti para o campo &amp;1!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Informar a moeda &amp;1 na Compra ou na Venda!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>O valor de &amp;1 precisar ser maior ou igual que a transação selecionada!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Selecionar apenas exposições do mesmo período e plano.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Montante divergente em relação ao hedge &amp;1 diferença &amp;2!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>NDFs já liquidadas!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Linha selecionada inválida para o processo!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Processar somente um registro!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Proesso cancelado, verificar com o administrador do sistema!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Empresa &amp;1 \ ID &amp;2 \ Exposição &amp;3 \ Transação &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Objeto selecionado já está associada a Exposição &amp;1 \ Transação &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Referência -&gt; Transação inválida!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>A inicialização com &apos;E&apos; só pode ser utilizado pelo standard.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>A interface não está configurada para esse processo!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>O documento está incompatível com sua referência!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Linha selecionada não contém montante para o processamento!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>An active direct debit is required</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

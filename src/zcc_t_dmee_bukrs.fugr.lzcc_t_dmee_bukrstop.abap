@@ -1,4 +1,3 @@
-* regenerated at 05.08.2022 15:56:31
 FUNCTION-POOL ZCC_T_DMEE_BUKRS           MESSAGE-ID SV.
 
 * INCLUDE LZCC_T_DMEE_BUKRSD...              " Local class definition

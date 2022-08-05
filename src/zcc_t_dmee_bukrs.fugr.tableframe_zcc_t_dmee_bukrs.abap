@@ -1,7 +1,5 @@
 *---------------------------------------------------------------------*
 *    program for:   TABLEFRAME_ZCC_T_DMEE_BUKRS
-*   generation date: 05.08.2022 at 15:56:30
-*   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 FUNCTION TABLEFRAME_ZCC_T_DMEE_BUKRS   .
 

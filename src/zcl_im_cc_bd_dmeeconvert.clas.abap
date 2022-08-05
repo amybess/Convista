@@ -40,11 +40,11 @@ CLASS ZCL_IM_CC_BD_DMEECONVERT IMPLEMENTATION.
       TRY.
           LOOP AT ch_it_init ASSIGNING FIELD-SYMBOL(<fs_init>).
             ASSIGN COMPONENT 'CONTENT' OF STRUCTURE  <fs_init> TO <fs_content>.
-*   S4 Hana   FIND ALL OCCURRENCES OF PCRE '([' && wa_dmee_head-escape_symb && '])(?:(?=(\\?))\2.)*?\1' IN <fs_content> results data(result_tab).
-            FIND ALL OCCURRENCES OF REGEX wa_dmee_head-escape_symb &&
-                                          '[^' && wa_dmee_head-escape_symb && ']*' &&
-                                          wa_dmee_head-escape_symb &&
-                                          '|^[^' && wa_dmee_head-escape_symb && ']*$' IN <fs_content> RESULTS DATA(result_tab).
+            FIND ALL OCCURRENCES OF PCRE '([' && wa_dmee_head-escape_symb && '])(?:(?=(\\?))\2.)*?\1' IN <fs_content> results data(result_tab).
+*            FIND ALL OCCURRENCES OF REGEX wa_dmee_head-escape_symb &&
+*                                          '[^' && wa_dmee_head-escape_symb && ']*' &&
+*                                          wa_dmee_head-escape_symb &&
+*                                          '|^[^' && wa_dmee_head-escape_symb && ']*$' IN <fs_content> RESULTS DATA(result_tab).
             LOOP AT result_tab INTO DATA(wa_result).
               lv_to_replace = <fs_content>+wa_result-offset(wa_result-length).
               lv_replaced = lv_to_replace.

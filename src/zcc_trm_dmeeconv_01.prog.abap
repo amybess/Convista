@@ -28,13 +28,13 @@
 REPORT zcc_trm_dmeeconv_01.
 
 
-INCLUDE ZCC_TRM_DMEECONV_01_TOP.      " global data declarations
+INCLUDE zcc_trm_dmeeconv_01_top.      " global data declarations
 
-INCLUDE ZCC_TRM_DMEECONV_01_INI.      " Initialization
+INCLUDE zcc_trm_dmeeconv_01_ini.      " Initialization
 
-INCLUDE ZCC_TRM_DMEECONV_01_SEL.      " selection screen
+INCLUDE zcc_trm_dmeeconv_01_sel.      " selection screen
 
-INCLUDE ZCC_TRM_DMEECONV_01_F01.      " FORM-routines
+INCLUDE zcc_trm_dmeeconv_01_f01.      " FORM-routines
 
 
 ***********************************************************************
@@ -266,3 +266,52 @@ START-OF-SELECTION.
   WRITE / 'FIM DO PROCESSAMENTO ---------------------------'.
   WRITE /: 'Total de registros gravados = ', g_con.
   WRITE / '------------------------------------------------'.
+
+  IF p_bapi IS NOT INITIAL.
+    PERFORM f_bapi USING    <fs_it1>
+                   CHANGING <fs_wa1>.
+  ENDIF.
+*&---------------------------------------------------------------------*
+*& Form f_bapi
+*&---------------------------------------------------------------------*
+*& text
+*&---------------------------------------------------------------------*
+*& -->  p1        text
+*& <--  p2        text
+*&---------------------------------------------------------------------*
+FORM f_bapi USING    p_fs_it TYPE STANDARD TABLE
+            CHANGING p_fs_wa TYPE any.
+  DATA: ls_forex               TYPE bapi_ftr_create_fxt,
+        ls_GENERALCONTRACTDATA TYPE bapi_ftr_create,
+        ls_ACTIVITY_CATEGORY   TYPE tb_sfgzuty.
+  DATA l_company_code TYPE bukrs.
+  DATA l_deal_number TYPE tb_rfha.
+  DATA l_deal_number2 TYPE tb_rfha.
+  DATA l_bapi_ret TYPE TABLE OF bapiret2.
+
+  LOOP AT p_fs_it INTO p_fs_wa.
+
+    CLEAR: ls_forex, ls_GENERALCONTRACTDATA.
+    MOVE-CORRESPONDING p_fs_wa  TO <fs_wat>.
+    MOVE-CORRESPONDING <fs_wat> TO ls_forex.
+    MOVE-CORRESPONDING <fs_wat> TO ls_GENERALCONTRACTDATA.
+
+
+    CALL FUNCTION 'BAPI_FTR_FXT_CREATE'
+      EXPORTING
+        forex                = ls_forex
+        generalcontractdata  = ls_GENERALCONTRACTDATA
+      IMPORTING
+        financialtransaction = l_deal_number
+        companycode          = l_company_code
+      TABLES
+        return               = l_bapi_ret.
+
+    IF sy-subrc IS INITIAL.
+      ADD 1 TO g_con1.
+    ENDIF.
+
+
+  ENDLOOP.
+
+ENDFORM.

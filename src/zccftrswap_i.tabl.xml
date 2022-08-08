@@ -4,8 +4,10 @@
   <asx:values>
    <DD02V>
     <TABNAME>ZCCFTRSWAP_I</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <TABCLASS>INTTAB</TABCLASS>
     <LANGDEP>X</LANGDEP>
+    <DDTEXT>Estrutura Interface TRM/Providers Swap</DDTEXT>
    </DD02V>
    <DD03P_TABLE>
     <DD03P>

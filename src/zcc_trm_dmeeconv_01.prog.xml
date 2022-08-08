@@ -10,6 +10,111 @@
     <FIXPT>X</FIXPT>
     <UCCHECK>X</UCCHECK>
    </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>File IDS de entrada</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>DMEE: indicações de formato</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>File IDS convertido</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Logs</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Atualização</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Opção Processamento</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_BAPI</KEY>
+     <ENTRY>Executar BAPI no processamento</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_CDPAGE</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>38</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DMEIN</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>17</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FORMAT</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>24</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TR_ID</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>19</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TR_TYP</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>17</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TYPEL2</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>21</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB1_UPPS</KEY>
+     <ENTRY>Ler do file local</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>RB2_UPAS</KEY>
+     <ENTRY>Escrever no servidor aplicação</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>X_LOG1</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>26</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+   </TPOOL>
    <I18N_TPOOL>
     <item>
      <LANGUAGE>1</LANGUAGE>
@@ -3258,63 +3363,107 @@
      <LANGUAGE>P</LANGUAGE>
      <TEXTPOOL>
       <item>
-       <ID>R</ID>
-       <ENTRY>ZCC DME Conversão</ENTRY>
-       <LENGTH>17</LENGTH>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>File IDS de entrada</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>DMEE: indicações de formato</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>File IDS convertido</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Logs</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Atualização</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Opção Processamento</ENTRY>
+       <LENGTH>29</LENGTH>
       </item>
       <item>
        <ID>S</ID>
-       <KEY>P_CDPAGE</KEY>
-       <ENTRY>Code Page (Coded Character Set</ENTRY>
+       <KEY>P_BAPI</KEY>
+       <ENTRY>Executar BAPI no processamento</ENTRY>
        <LENGTH>38</LENGTH>
       </item>
       <item>
        <ID>S</ID>
-       <KEY>P_DMEIN</KEY>
-       <ENTRY>File name</ENTRY>
-       <LENGTH>17</LENGTH>
-      </item>
-      <item>
-       <ID>S</ID>
-       <KEY>P_FORMAT</KEY>
-       <ENTRY>Record Delimiter</ENTRY>
-       <LENGTH>24</LENGTH>
-      </item>
-      <item>
-       <ID>S</ID>
-       <KEY>P_TR_ID</KEY>
-       <ENTRY>Format tree</ENTRY>
-       <LENGTH>19</LENGTH>
-      </item>
-      <item>
-       <ID>S</ID>
-       <KEY>P_TR_TYP</KEY>
-       <ENTRY>Tree Type</ENTRY>
-       <LENGTH>17</LENGTH>
-      </item>
-      <item>
-       <ID>S</ID>
-       <KEY>P_TYPEL2</KEY>
-       <ENTRY>File-Data Log</ENTRY>
-       <LENGTH>21</LENGTH>
-      </item>
-      <item>
-       <ID>S</ID>
        <KEY>RB1_UPPS</KEY>
-       <ENTRY>Read from Local File</ENTRY>
-       <LENGTH>28</LENGTH>
+       <ENTRY>Tipo de árvore</ENTRY>
+       <LENGTH>38</LENGTH>
       </item>
       <item>
        <ID>S</ID>
        <KEY>RB2_UPAS</KEY>
-       <ENTRY>Read from Application Server</ENTRY>
-       <LENGTH>36</LENGTH>
+       <ENTRY>Escrever no servidor aplicação</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_CDPAGE</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>38</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DMEIN</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_FORMAT</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_ID</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TR_TYP</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>17</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TYPEL2</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>21</LENGTH>
+       <SPLIT>D</SPLIT>
       </item>
       <item>
        <ID>S</ID>
        <KEY>X_LOG1</KEY>
-       <ENTRY>Generate Error Log</ENTRY>
+       <ENTRY>.</ENTRY>
        <LENGTH>26</LENGTH>
+       <SPLIT>D</SPLIT>
       </item>
      </TEXTPOOL>
     </item>

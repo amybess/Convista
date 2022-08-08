@@ -73,4 +73,5 @@ CONSTANTS: c_active_version     TYPE dmee_version_aba VALUE '000',
 *----------------------------------------------------------------------------------------------
 DATA: git_struc_comp TYPE TABLE OF dd03p.
 DATA: g_con TYPE num5.
+DATA: g_con1 TYPE num5.
 DATA: g_tabname TYPE tabname16.

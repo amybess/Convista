@@ -4,8 +4,10 @@
   <asx:values>
    <DD02V>
     <TABNAME>ZCCFTRSWAP</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <TABCLASS>INTTAB</TABCLASS>
     <LANGDEP>X</LANGDEP>
+    <DDTEXT>Estrutura Interface TRM/Providers Swap</DDTEXT>
    </DD02V>
    <DD03P_TABLE>
     <DD03P>
@@ -530,6 +532,13 @@
      <MASK>      S</MASK>
      <DDTEXT>DMEE: Include Struct. for Hier. Relation. Btwn Result Tables</DDTEXT>
      <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>RFHA</FIELDNAME>
+     <ROLLNAME>TB_RFHA</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
     </DD03P>
    </DD03P_TABLE>
    <I18N_LANGS>

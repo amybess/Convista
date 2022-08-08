@@ -1,13 +1,17 @@
 *&---------------------------------------------------------------------*
 *&  Include           DMEECONVERT1_SEL
 *&---------------------------------------------------------------------*
-* Formatangaben
+* Indicações de formato
 SELECTION-SCREEN: BEGIN OF BLOCK 1 WITH FRAME TITLE text-002.
 PARAMETERS: p_tr_typ TYPE dmee_treetype_aba OBLIGATORY,
             p_tr_id  TYPE dmee_treeid_aba OBLIGATORY.
 SELECTION-SCREEN: END OF BLOCK 1.
 
-* Eingehende Datei
+SELECTION-SCREEN: BEGIN OF BLOCK 1a WITH FRAME TITLE text-008.
+PARAMETERS: p_bapi AS CHECKBOX.
+SELECTION-SCREEN: END OF BLOCK 1a.
+
+* File IDS de Entrada
 SELECTION-SCREEN: BEGIN OF BLOCK 2 WITH FRAME TITLE text-001.
 PARAMETERS: rb1_upps TYPE xfeld RADIOBUTTON GROUP up_s DEFAULT 'X',
             rb2_upas TYPE xfeld RADIOBUTTON GROUP up_s,
